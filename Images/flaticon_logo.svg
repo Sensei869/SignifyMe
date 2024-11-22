@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1080">
+  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+  <defs>
+    <style>
+      .st0, .st1 {
+        fill: #4d4d4d;
+      }
+
+      .st2 {
+        stroke-width: 23px;
+      }
+
+      .st2, .st3, .st4 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .st5 {
+        font-family: Nohemi-SemiBold, Nohemi;
+        font-size: 180.6px;
+        font-weight: 600;
+      }
+
+      .st3 {
+        stroke-width: 25px;
+      }
+
+      .st6 {
+        font-family: Graphik-Extralight, Graphik;
+        font-size: 63.2px;
+        font-weight: 200;
+      }
+
+      .st7, .st8 {
+        fill: #1690ff;
+      }
+
+      .st1 {
+        letter-spacing: 0em;
+      }
+
+      .st8 {
+        letter-spacing: 0em;
+      }
+
+      .st4 {
+        stroke-width: 15px;
+      }
+    </style>
+  </defs>
+  <text class="st6" transform="translate(-560.1 328.3)"><tspan x="0" y="0">Sign</tspan></text>
+  <text class="st5" transform="translate(1163.2 679.7) scale(1 1)"><tspan class="st8" x="0" y="0">Signify</tspan><tspan class="st1" x="622.7" y="0">Me</tspan></text>
+  <g>
+    <path class="st7" d="M222.5,736.9c-10.9,0-21.9-3.4-31.3-10.4-121.6-90.7-47.2-309.8-38.3-334.5,9.6-26.7,39.3-40.6,66.4-31.2,27,9.5,41.2,38.7,31.6,65.4h0c-14.2,39.9-31.3,116.4-22.1,169.7l316.2-389.3c18-22.1,50.7-25.6,73-7.9,22.4,17.7,26,50,8.1,72.1l-363,446.9c-10.2,12.6-25.3,19.2-40.6,19.2Z"/>
+    <path class="st0" d="M328.1,858c-10.4,0-20.8-3.3-29.5-10.1-20.7-16.1-24.3-45.8-8-66.2l388.5-486.6c16.3-20.5,46.4-24,67.1-7.9,20.7,16.1,24.3,45.8,8,66.2l-388.5,486.6c-9.4,11.8-23.4,18-37.6,18Z"/>
+    <path class="st0" d="M513.8,892.6c-10.4,0-20.8-3.3-29.5-10.1-20.7-16.1-24.3-45.8-8-66.2l340.1-426c16.3-20.5,46.4-24,67.1-7.9,20.7,16.1,24.3,45.8,8,66.2l-340.1,426c-9.4,11.8-23.4,18-37.6,18Z"/>
+    <path class="st0" d="M683.8,870.3c-6.8,0-13.7-2.2-19.5-6.8-13.4-10.6-15.6-30-4.8-43.2l242.7-298.4c10.8-13.2,30.4-15.4,43.8-4.7,13.4,10.6,15.6,30,4.8,43.2l-242.7,298.4c-6.2,7.6-15.2,11.5-24.3,11.5Z"/>
+  </g>
+  <g>
+    <path class="st3" d="M-314.4,150.5s-17.8,50.2,5,67.4l87.3-109"/>
+    <line class="st2" x1="-190.6" y1="129.8" x2="-284.1" y2="248.4"/>
+    <line class="st2" x1="-157.6" y1="153" x2="-239.4" y2="256.8"/>
+    <line class="st4" x1="-140.1" y1="182.6" x2="-198.5" y2="255.4"/>
+  </g>
+  <image width="1440" height="360" transform="translate(-140.1 1367.8)" xlink:href="flaticon_logo-1.png"/>
+</svg>

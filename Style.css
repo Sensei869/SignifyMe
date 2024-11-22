@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: syne, sans-serif;
+}
+
+
+.common-padding{
+    padding: 0 150px;
+}
+
+/* Navbar styling */
+/* header{
+    background-color: #1690ff;
+} */
+
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 20px; */
+    /* max-width: 1440px; */
+    margin: auto;
+}
+
+
+.nav-logo img {
+    width: 200px; /* Adjust logo size */
+  }
+
+.navbar .nav-menu ul{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    gap: 40px;
+    font-weight: 200;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: #151515;
+    font-size: 20px;
+}
+
+.nav-menu a:hover{
+    color: #1690ff;
+}
+
+
+.Signup_btn{
+    background-color: #ffffff;
+    color: #1690ff;
+    padding: 12px 32px;
+    border: 1.5px solid #1690ff;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: syne, sans-serif;
+}
+
+.Signup_btn:hover{
+    scale: 1;
+    background-color: #1690ff;
+    color: #ffffff;
+}
+
+.Login_btn{
+    background-color: #ffffff;
+    color: #151515;
+    padding: 12px 28px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: syne, sans-serif;
+}
+
+.Login_btn:hover{
+    color: #1690ff;
+}
+
+.navbar .toggle_btn{
+    display: none;
+}
+
+/* Navbar Styling Ended */
+
+
+
+
+
+
+
+/* hero Section Started */
+.hero-section{
+    padding: 100px 0;
+    /* background-color: antiquewhite; */
+    text-align: center;
+}
+
+
+.hero-section h5{
+    font-size:16px;
+    font-weight: 500;
+    color: #4D4D4D;
+}
+.hero-section .title{
+    font-size:48px; 
+    padding: 4px 0;
+    font-family: raleway, sans-serif; 
+    font-weight: 500;
+    color: #151515;
+}
+
+.hero-section .subtitle{
+    font-size:56px; 
+    padding: 0 0 40px 0;
+    font-family: raleway, sans-serif; 
+    font-weight: 700;
+    color: #1690ff;
+}
+
+.hero-buttons{
+    gap: 90px;
+}
+
+.hero-buttons .start-demo-btn{
+    background-color: #1690ff;
+    color: #ffffff;
+    padding: 12px 32px;
+    border: 1.5px solid #1690ff;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: syne, sans-serif;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.hero-buttons .how-it-works-btn{
+    background-color: #ffffff;
+    color: #1690ff;
+    padding: 12px 32px;
+    border: 1.5px solid #1690ff;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: syne, sans-serif;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.hero-image-wrapper img{
+    align-items: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 1200px;
+    height: 100%;
+    object-fit: cover;  
+}
+
+/* Hero Section Styling Ended */
+
+
+
+
+/* About us Styling */
+.about-section{
+    padding: 100px;
+
+    /* background-color: #8a1717; */
+}
+
+.about-section .section-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    gap: 100px;
+}
+
+.about-section .about-image-wrapper img{
+    width: 600px;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.about-section .about-title{
+    font-family: raleway, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #1690ff;
+}
+
+.about-section .about-description{
+    line-height: 30px;
+    font-size: 16px;
+    text-align: justify;
+    margin: 20px 0 0 0;
+}
+/* about us styling ended */
+
+
+
+
+/* how it works Styling */
+
+
+.how-it-works-section .works-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.how-it-works-section .cards{
+    /* display: flex; */
+    overflow: hidden;
+    box-shadow: 0 0px 4px 0 #efefef;
+    stroke: 1px solid black;
+    width: 400px;
+    height: 400px;
+    margin: 0 30px 30px 30px ;
+    text-align: center;
+    padding: 48px 48px 48px 48px ;
+    border-radius: 4px;
+}
+
+
+
+
+
+/* Dropdown NavMenu */
+.dropdown_navmenu{
+    position: absolute;
+    left: 0 ;
+    right: 0 ;
+    top: 90px;
+    width: 100%;
+    background: #38AA60;
+    display: none;
+}
+.dropdown_navmenu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: #ffffff;
+}
+
+.dropdown_navmenu .Signup_btn1{
+    background-color: #ffffff;
+    color: #38AA60;
+    padding: 12px 28px;
+    border: 1.5px solid #38AA60;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+/* Contact Section Styling */
+.contact-section{
+    padding: 50px 0 80px;
+    background-color: #1690ff;
+}
+
+.contact-section .section-content{
+    display: flex;
+    gap: 48px;
+    justify-content: space-between;
+    align-items: flex-start ;
+}
+
+.contact-section .contact-list .contact-info{
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.contact-section .contact-list .contact-info i{
+    /* font-size: var(--font-size-m); */
+    font-size: 40px;
+}
+
+.contact-section .contact-form .input-form {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    outline: none;
+    margin-bottom: 16px;
+    background: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    }
+
+
+
+
+
+
