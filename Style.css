@@ -708,3 +708,13 @@ resize: vertical;
     /* margin-top: 20px; */
    }
 
+.image-result-content{
+    padding-block: 10px;
+}
+.image-result-content .result
+    {
+    font-family: syne, sans-serif;
+    font-size: 24px;
+    text-transform: capitalize;
+    line-height: 1.5;
+    }
