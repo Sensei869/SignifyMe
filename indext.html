@@ -10,12 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lily+Script+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    
 
 
     <link rel="stylesheet" href="Style.css">
-    <!-- <link rel="stylesheet" href="media.css"> -->
-
     <link rel="icon" href="/Images/flaticon_logo.svg">
 
     <title>SignifyMe</title>
@@ -39,8 +37,8 @@
               </ul>
                 </div>
                 <div class="navbutton">
-                    <button class="Login_btn"> Login</button>
-                    <button class="Signup_btn"> Signup </button>
+                   <a href="/Registration/Login.html"> <button class="Login_btn"  data-bs-toggle="modal" data-bs-target="#exampleModal"> Login</button></a> 
+                   <a href="/Registration/signup.html"> <button class="Signup_btn"> Signup </button> </a> 
                     <!-- <ul>
                         <li><a href="#" class="Login_btn"> Login</a></li>
                         <li><a href="#" class="Signup_btn"> Sign up</a></li>
@@ -52,16 +50,6 @@
                 </div>
         </div>
 
-        <div class="dropdown_navmenu">
-            <ul>
-                <li><a href="Home">Home</a></li>
-                <li><a href="Frames">Frames</a></li>
-                <li><a href="Contact">Contact Us</a></li>
-                <li><a href="#" class="Login_btn"> Login</a></li>
-                <li><a href="#" class="Signup_btn1"> Sign up</a></li>
-      </ul>
-
-        </div>
      </header>
     <!-- navbar ended -->
 
@@ -146,45 +134,65 @@
         </div>
 
      </section>
+<!-- How it Works Section Ending -->
 
 
 
 
-
-
-    <section class="contact-section">
-        <h2 class="section-title"> Contact Us </h2>
+<!-- Contact Section -->
+    <section class="contact-section common-padding">
         <div class="section-content">
-            <ul class="contact-list">
-                <li class="contact-info">
-                    <i class="fa-solid fa-location-arrow"></i>
-                    <p>Bagbazzar, Kathmandu, Nepal</p>
-                </li>
+            <div class="contact-title">
+                <h2 class="section-title"> Get in Touch </h2>
+                 <p class="Contact-description">Our expert recommendations ensure you find the perfect frames that complement your personality and enhance your look effortlessly.</p>
 
-                <li class="contact-info">
-                    <i class="fa-solid fa-phone"></i>
-                    <p>9823820675 | 9860000000</p>
-                </li>
+                 <ul class="contact-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-arrow"></i>
+                        <p>Bagbazzar, Kathmandu, Nepal</p>
+                    </li>
+    
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>9823820675 | 9860000000</p>
+                    </li>
+    
+                    <li class="contact-info">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>Monday - Friday : 9:00 AM - 5:00 PM</p>
+                    </li>
+                </ul>
 
-                <li class="contact-info">
-                    <i class="fa-solid fa-clock"></i>
-                    <p>Monday - Friday : 9:00 AM - 5:00 PM</p>
-                </li>
-            </ul>
+            </div>
 
-            <form action="#" class="contact-form>
-                <input type="text" placeholder="Your Name" class="input-form" required>
+            <form action="#" class="contact-form">
                 <input type="text" placeholder="Your Name" class="input-form" required>
                 <input type="email" placeholder="Your Email" class="input-form" required>
-            <textarea placeholder="Your Message" class="input-form"></textarea>
+                <textarea placeholder="Your Message" class="input-form"></textarea>
             <button class="submit-btn">Send Message</button>
             </form>
         </div>
     </section>
+    <!-- Contact Section Ended -->
 
-    <script src="script.js"></script>
+
+
+<!-- Footer Started -->
+<footer class="footer-section">
+<div class="footer-logo">
+    <img src="/Images/logo.svg" alt="logos" class="footer-logo">
+</div>
+       <div class="footer-detail">
+        <p class="footer-description">Copyright@SignifyMe | All right reserved</p>
+        <div class="social-links-list">
+            <a href="#" class="social-link"><img src="/Images/FacebookLogo.svg" alt=""></a>
+              
+            <a href="#" class="social-link"><img src="/Images/InstagramLogo.svg" alt=""></a>
+            <a href="#" class="social-link"><img src="/Images/YoutubeLogo.svg" alt=""></a>
+        </div>
+
+       </div>
+</footer>
+
 </body>
-
-
-
 </html>
