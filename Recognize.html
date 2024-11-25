@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lily+Script+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lily+Script+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+
+
+    <link rel="stylesheet" href="/Style.css">
+    <link rel="icon" href="/Images/flaticon_logo.svg">
+
+    <title>SignifyMe</title>
+
+</head>
+<body>
+
+        <!-- Navbar started -->
+        <header>
+            <div class="navbar common-padding">
+                <div class="nav-logo">                
+                        <!-- <img src="Images/flaticon.svg" alt=""> -->
+                        <img src="/Images/logo.svg" alt="">
+                 </div>
+                <div class="nav-menu">
+                 <ul>
+                            <li><a href="Home">Home</a></li>
+                            <li><a href="Frames">How it works</a></li>
+                            <li><a href="Contact">Demo</a></li>
+                            <li><a href="Contact">Contact us</a></li>
+                  </ul>
+                    </div>
+                    <div class="navbutton">
+                       <a href="/Registration/Login.html"> <button class="Login_btn"  data-bs-toggle="modal" data-bs-target="#exampleModal"> Login</button></a> 
+                       <a href="/Registration/signup.html"> <button class="Signup_btn"> Signup </button> </a> 
+                        <!-- <ul>
+                            <li><a href="#" class="Login_btn"> Login</a></li>
+                            <li><a href="#" class="Signup_btn"> Sign up</a></li>
+                        </ul> -->
+                    </div>
+        
+                    <div class="toggle_btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+            </div>
+    
+         </header>
+        <!-- navbar ended -->
+
+        
+        <section class="recognization common-padding">
+            <div class="recognization-card">
+                <div class="Upload-section">
+
+                    <input type="file" id="file" accept="image/*" hidden>
+                    <div class="img-area " data-img="">
+                        <i class="fa-solid fa-cloud-arrow-up icon"></i>
+                        <h3> Upload Image</h3>
+                        <p>Image size must be less than <span>2MB</span></p>
+                        <!-- <img src="/Images/sample1.jpg" alt=""> -->
+                    </div>
+                    <button class="select-image">Select Image</button>
+                </div>
+                    
+             </div>
+    
+                <div class="start-section">
+                    <h1 class="start-title">Hand Sign Detection System</h1>
+                    <p class="start-description">Upload an image and let your gestures tell the story. Connect, learn, and explore the beauty of hand signs through visual expressions.</p>
+                    <button class="start-btn"> Start Processiong</button>
+                    <div>
+                        <h2 class="result"></h2>
+                    </div>
+                </div>
+
+            </div>
+            
+
+
+        </section>
+
+
+
+
+
+    <script src="upload.js"></script>
+</body>
+</html>

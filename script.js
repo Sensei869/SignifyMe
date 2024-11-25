@@ -1,3 +1,16 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
 const form = document.getElementById('forms')
 const firstname_input = document.getElementById('firstname-input')
 const email_input = document.getElementById('email-input')
