@@ -13,7 +13,7 @@
     
 
 
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="/CSS/Style.css">
     <link rel="icon" href="/Images/flaticon_logo.svg">
 
     <title>SignifyMe</title>
@@ -26,7 +26,7 @@
         <div class="navbar common-padding">
             <div class="nav-logo">                
                     <!-- <img src="Images/flaticon.svg" alt=""> -->
-                    <img src="/Images/logo.svg" alt="">
+                    <a href="/indext.html"> <img src="/Images/logo.svg" alt=""> </a>
              </div>
             <div class="nav-menu">
              <ul>
@@ -64,7 +64,7 @@
                     <h2 class="subtitle"> Speaks a Thousand Words</h2>
                   
                     <div class="hero-buttons">
-                        <a href="#" class="start-demo-btn"> Start Demo</a>
+                        <a href="/Recognize.html" class="start-demo-btn"> Start Demo</a>
                         <a href="#" class="how-it-works-btn">How it Works</a>
                     </div>
                 </div> 
@@ -165,9 +165,9 @@
 
             </div>
 
-            <form action="#" class="contact-form">
+            <form action="#" class="contact-form" onsubmit="sendEmail(); reset(); return false;">
                 <input type="text" placeholder="Your Name" class="input-form" required>
-                <input type="email" placeholder="Your Email" class="input-form" required>
+                <input type="email" id="email" placeholder="Your Email" class="input-form" required>
                 <textarea placeholder="Your Message" class="input-form"></textarea>
             <button class="submit-btn">Send Message</button>
             </form>
@@ -193,6 +193,24 @@
 
        </div>
 </footer>
+
+
+<!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    function sendEmail(){
+        Email.send({
+            Host : "smtp.gmail.com",
+            Username : "rajeshmaharjan2058@gmail.com",
+            Password : "Gr@phic2058",
+            To : 'rajeshmaharjan869@gmail.com',
+            From : document.getElementById("email").value,
+            Subject : "New Contact Form Enquiry",
+            Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+    }
+</script> -->
 
 </body>
 </html>
