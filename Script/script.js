@@ -1,19 +1,54 @@
-const form = document.getElementById('forms')
-const firstname_input = document.getElementById('firstname-input')
-const email_input = document.getElementById('email-input')
-const password_input = document.getElementById('password-input')
-const confirmpassword_input = document.getElementById('confirmpassword-input')
+// Form validation script
+const form = document.getElementById('forms');
+const emailInput = document.getElementById('email');
+const passwordInput = document.getElementById('password');
 
-form.addEventListener('submit', (e) => {
-  // e.preventDefault() prevent submit
+form.addEventListener('submit', (event) => {
 
-  let errors = []
+  console.log('Submit');
 
-  if(firstname_input){
-    errors = getSignupFormErrors(firstname_input.ariaValueMax. email_input.value, password_input.value, confirmpassword_input.value)
-  }
-  else{
+    event.preventDefault(); 
+    clearErrors();
+    let isValid = true;
 
-    errors = getLoginFormErrors(email_input.value, password_input.value)
-  }
-})
+    if (!validateEmail(emailInput.value)) {
+        showError(emailInput, 'Please enter a valid email address.');
+        isValid = false;
+    }
+
+    if (!validatePassword(passwordInput.value)) {
+        showError(passwordInput, 'Password must be at least 8 characters long.');
+        isValid = false;
+    }
+
+    if (isValid) {
+        form.submit();
+    }
+});
+
+function validateEmail(email) {
+    const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+    return emailRegex.test(email);
+}
+
+
+function validatePassword(password) {
+    return password.length >= 8;
+}
+
+
+function showError(inputElement, message) {
+    const errorSpan = document.createElement('span');
+    errorSpan.className = 'error-message';
+    errorSpan.textContent = message;
+    inputElement.parentNode.appendChild(errorSpan);
+    inputElement.classList.add('error-input');
+}
+
+function clearErrors() {
+    const errorMessages = document.querySelectorAll('.error-message');
+    errorMessages.forEach((message) => message.remove());
+
+    const errorInputs = document.querySelectorAll('.error-input');
+    errorInputs.forEach((input) => input.classList.remove('error-input'));
+}

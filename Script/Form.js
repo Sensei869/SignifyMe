@@ -2,9 +2,11 @@ const forms =document.getElementById('forms');
 const username =document.getElementById('username');
 const email =document.getElementById('email');
 const password =document.getElementById('password');
-const confirmpass =document.getElementById('confirmpass');
+const confirmpass =document.getElementById('Confirmpass');
 
-forms.addEventListener('Submit', (e) =>{
+forms.addEventListener('submit', (e) =>{
+
+    console.log('Submit');
     e.preventDefault();
 
     checkInputs();
@@ -54,7 +56,7 @@ function checkInputs(){
         //show error
         //add error class
         setErrorfor(confirmpass, 'Confirm Password shouldnot be blank');
-    } else if(passwordValue !== passwordValue2){
+    } else if(passwordValue !== confirmpassValue){
         setErrorfor(confirmpass, 'Password Doesnot Match')
 
     }
